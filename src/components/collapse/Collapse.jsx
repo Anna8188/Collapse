@@ -6,7 +6,7 @@ function Collapse() {
   return (
     <div className="collapse">
      <button className="button-collapse" onClick={()=>setIsClicked(!isClicked)}>
-        click me!
+        Chat 
      </button>
                 <div className={`${isClicked? "active": ""} chatbox`}>
                 <div className='chat-window'>
